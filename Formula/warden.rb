@@ -1,10 +1,10 @@
 
 class Warden < Formula
-  desc "Warden is a CLI utility for managing docker based environments on macOS"
+  desc "Warden is a CLI utility for working with docker-compose environments"
   homepage "https://warden.dev"
-  # version "0.1.0"
-  # url "https://github.com/davidalger/warden/archive/0.1.0.tar.gz"
-  # sha256 "29a5161f4b3a8f399ed121e6dae7e09a691ab4b5400c917f3fd6a3fa855ef4be"
+  version "0.1.0-beta1"
+  url "https://github.com/davidalger/warden/archive/0.1.0-beta1.tar.gz"
+  sha256 "976c4e8dc60b2d6ec680bf81cdb93fde5107847afece6e0cfd0a0f0cdebd2ce6"
   head "https://github.com/davidalger/warden.git", :branch => "develop"
 
   def install
@@ -13,8 +13,9 @@ class Warden < Formula
 
   def caveats
     <<~EOS
-      Warden manages a set of global services on Docker for Mac. You will need
-      to have Docker for Mac installed prior to using Warden.
+      Warden manages a set of global services on the docker host machine. You
+      will need to have Docker installed and docker-compose available in your
+      local $PATH configuration prior to starting Warden.
 
       To start warden simply run:
 
