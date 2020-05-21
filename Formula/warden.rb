@@ -4,7 +4,7 @@ class Warden < Formula
   homepage "https://warden.dev"
   version "0.5.0"
   url "https://github.com/davidalger/warden/archive/0.5.0.tar.gz"
-  sha256 "ecd9b1d0c78c46cfa32861fed12372a24278b4166e67a49b57262c8ebfe38217"
+  sha256 "f867d988100adb26d12f258b5321119aa684976d473e2ce773ebe8b10870eb36"
   head "https://github.com/davidalger/warden.git", :branch => "develop"
 
   def install
