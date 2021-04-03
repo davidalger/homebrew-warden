@@ -2,9 +2,9 @@
 class Warden < Formula
   desc "Warden is a CLI utility for working with docker-compose environments"
   homepage "https://warden.dev"
-  version "0.10.1"
-  url "https://github.com/davidalger/warden/archive/0.10.1.tar.gz"
-  sha256 "f610349264c46ac58e88bd5c1296715d11758a6eb252ba3d5628d6750526dcbd"
+  version "0.10.2"
+  url "https://github.com/davidalger/warden/archive/0.10.2.tar.gz"
+  sha256 "1c6939a55e9d01201681b9485350ec956c2b410fe886073898fff134f070586c"
   head "https://github.com/davidalger/warden.git", :branch => "develop"
 
   def install
